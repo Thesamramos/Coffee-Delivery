@@ -8,9 +8,9 @@ export function Header() {
         <HeaderContainer>
             <img src={LogoCoffee} />
             <nav>
-                <p>{<MapPin size={22} />} Campo Grande, MS </p>
+                <p>{<MapPin weight="fill" size={22} />} Campo Grande, MS </p>
                 <NavLink to='/checkout' title="Carrinho">
-                    <ShoppingCart size={22}/>
+                    <ShoppingCart weight="fill" size={22}/>
                 </NavLink>
             </nav>
         </HeaderContainer>
