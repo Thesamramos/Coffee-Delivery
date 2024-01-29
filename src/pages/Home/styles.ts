@@ -37,3 +37,14 @@ export const Items = styled.div`
         gap: 0.75rem;
     }
 `
+
+export const CardContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 3.38rem;
+    h2 {
+        color: ${(props) => props.theme["base-subtitle"]};
+        font-size: 2rem;
+        font-weight: 800;
+    }
+`

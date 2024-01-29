@@ -18,7 +18,7 @@ export const GlobalStyle = createGlobalStyle`
         line-height: 130%;
     } 
 
-    h1 {
+    h1, h2 {
         font-family: 'Baloo 2', sans-serif ;
         font-weight: 130%;
     }
